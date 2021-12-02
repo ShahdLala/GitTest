@@ -73,6 +73,37 @@ E:\GitTestSem>
 Video für das ganze ding 'git in 40 min'
 ````
 ## Remote
+````bash
+E:\GitTestSem>git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+E:\GitTestSem>git push --set-upstream origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 5.85 KiB | 5.85 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/ShahdLala/GitTest.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+E:\GitTestSem>git push
+Everything up-to-date
+
+E:\GitTestSem>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+E:\GitTestSem>
+````
 
 
 
