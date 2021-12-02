@@ -54,4 +54,25 @@ E:\GitTestSem>
 
 ```
 ## Bransh
+````bash
+E:\GitTestSem>git branch
+* master
+
+E:\GitTestSem>git branch -m "main"
+
+E:\GitTestSem>git branch
+* main
+
+E:\GitTestSem>
+````
+## Bilder
+
+![idk](Unbenannt.png)
+````bash
+![idk](Unbenannt.png)
+Video für das ganze ding 'git in 40 min'
+````
+## Remote
+
+
 
